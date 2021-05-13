@@ -1,0 +1,201 @@
+/*公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: 'iconfont';  /* project id 2518808 */
+	src: url('//at.alicdn.com/t/font_2518808_o9deuagxi8.eot');
+	src: url('//at.alicdn.com/t/font_2518808_o9deuagxi8.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_2518808_o9deuagxi8.woff2') format('woff2'),
+	url('//at.alicdn.com/t/font_2518808_o9deuagxi8.woff') format('woff'),
+	url('//at.alicdn.com/t/font_2518808_o9deuagxi8.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_2518808_o9deuagxi8.svg#iconfont') format('svg');
+}
+
+* {
+	font-family: 'iconfont';
+}
+
+/*Cookies使用政策*/
+.cookies_container {
+	width: 100%;
+	height: 150px;
+	background-color: #e9e9e9;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.cookies_container .w {
+	position: relative;
+}
+.cookies_container dl dt {
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+	font-weight: 700;
+}
+.cookies_container dl dd {
+	font-size: 14px;
+}
+.cookies_container button {
+	width: 100px;
+	height: 40px;
+	border-radius: 15px;
+	position: absolute;
+	font-size: 16px;
+	line-height: 40px;
+	outline: none;
+}
+.cookies_container button:first-of-type {
+	color: black;
+	border:1px solid rgb(45, 45, 45);
+	right: 230px;
+	top: 20px;
+
+}
+.cookies_container button:last-of-type {
+	background-color: rgb(220, 30, 50);
+	border: none;
+	color: white;
+	right: 100px;
+	top: 20px;
+}
+
+/*导航栏*/
+.nav_container {
+	height: 90px;
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	float: left;
+	z-index: 10;
+    background-color: rgb(34, 34, 34);
+}
+.nav_container .nav {
+	float: left;
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+}
+.nav_container .nav img {
+	float: left;
+	width: 120px;
+	height: 75px;
+	margin-top: 10px;
+	margin-right: 100px;
+}
+.nav_container .nav ul {
+    text-align: center;
+	float: left;
+	width: 120px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 16px;
+	color: white;
+}
+
+.nav_container .nav .menu_header li {
+	width: 120px;
+	background-color: rgb(34, 34, 34);
+	visibility: hidden;
+}
+
+/*底栏*/
+.bottom_container {
+	width: 100%;
+	background-color: rgb(34, 34, 34);
+	
+}
+
+.bottom_container .friend_link {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+.bottom_container .friend_link a {
+	color: white;
+	line-height: 50px;
+	margin-right: 50px;
+	font-size: 16px;
+	color: rgb(200, 200, 200);
+}
+
+.bottom_container .content_module {
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+.bottom_container .content_module h4 {
+	color: white;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.bottom_container .content_module .zxxd {
+	width: 80px;
+	text-align: left;
+	margin-right: 150px;
+}
+
+
+.bottom_container .content_module .zxxd p {
+	margin-top: 10px;
+}
+
+.bottom_container .content_module .lxwm {
+	width: 200px;
+	text-align: left;
+	margin-right: 80px;
+}
+
+.bottom_container .content_module .lxwm .tel {
+	font-size: 30px;
+	font-weight: 700;
+	color:white;
+}
+
+.bottom_container .content_module .lxwm .teldescribe {
+	margin-top: 10px;
+	font-size: 14px;
+}
+.bottom_container .content_module .jjfa {
+	width: 300px;
+	text-align: left;
+	margin-right: 80px;
+}
+
+.bottom_container .content_module .jjfa p {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.bottom_container .content_module .jjfa span {
+	color: white;
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.bottom_container .content_module .ppcp {
+	text-align: left;
+}
+
+.copyright {
+	height: 30px;
+	text-align: center;
+}
+
+.copyright p {
+	margin-top: 5px;
+}
+

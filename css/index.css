@@ -1,0 +1,352 @@
+/*大图*/
+.bigimg1 {
+    background-image: url("../img/bigimg1.jpg");
+    width: 100%;
+    height: 1080px;
+    background-size: cover;  /*扩展以覆盖窗口*/
+    border-bottom: 5px solid rgb(189, 30, 47);;
+}
+
+.bigimg1 img {
+    width: 640px;
+    height: 140px;
+    position: absolute;
+  	top: 100px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+    margin: auto;
+}
+
+/*快捷查询*/
+.query_container {
+    background-color: rgb(249, 249, 249);
+}
+.query {
+    height: 120px;
+    padding-top: 30px;
+}
+
+.query div {
+    position: relative;
+}
+
+.query div input {
+    float: left;
+    width: 450px;
+    height: 60px;
+    padding-left: 140px;
+    outline: none;
+}
+
+.query div label {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.query div i {
+    font-size: 24px;
+    position: absolute;
+    top: 3px;
+    left: 555px;
+    line-height: 60px;
+    visibility: hidden;
+}
+
+.query a {
+    margin-left: 50px;
+}
+
+
+.query .car {
+    float: right;
+    height: 64px;
+    line-height: 64px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.query .car span {
+    line-height: 64px;
+    font-size: 64px;
+    vertical-align: middle;
+}
+
+.query .money_time {
+    float: right;
+    height: 64px;
+    line-height: 64px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.query .money_time span {
+    line-height: 64px;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.query .location_inquiry {
+    float: right;
+    height: 64px;
+    line-height: 64px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.query .location_inquiry span {
+    line-height: 64px;
+    font-size: 45px;
+    vertical-align: middle;
+}
+
+
+/*轮播图*/
+.carousel_module {
+    width: 100%;
+    position: relative;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.carousel_module h3 {
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.carousel_module .carousel {
+    width: 500%;
+    margin-left: 0;
+    transition: 0.5s;
+}
+
+.carousel_module .carousel li {
+    float: left;
+    width: 20%;
+}
+
+.carousel_module .button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.carousel_module .button li {
+    float: left;
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+}
+
+.carousel_module i {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.3;
+    /* visibility: hidden; */
+}
+
+.carousel_module .left_button {
+    left: 50px;
+}
+
+.carousel_module .right_button {
+    right: 50px;
+}
+
+/*四图模块*/
+.img_module_container {
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    position: relative;
+}
+
+.img_module_container h3 {
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.img_module_container div {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.img_module_container .img1 {
+    background-image: url("../img/img1.jpg");
+}
+
+.img_module_container .img2 {
+    background-image: url("../img/img2.jpg");
+}
+
+.img_module_container .img3 {
+    background-image: url("../img/img3.jpg");
+}
+
+.img_module_container .img4 {
+    background-image: url("../img/img4.jpg");
+}
+
+.img_module_container div h4 {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.img_module_container div .imgdescribe {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    padding-top: 500px;
+    box-sizing: border-box;
+    text-align: center;
+    transform: translate(0, 100%);
+    transition: 0.5s;
+}
+
+.img_module_container div .imgdescribe .num {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: rgb(220, 30, 50);
+}
+
+.img_module_container div .imgdescribe .describe {
+    margin-bottom: 100px;
+    font-size: 16px;
+    color: white;
+}
+
+/*四栏模块*/
+.column_module {
+    position: relative;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.column_module h3 {
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.column_module .culumn {
+    width: 280px;
+    height: 350px;
+    background-color: rgb(249, 249, 249);
+    margin: 0 20px;
+    padding: 25px 10px 25px;
+    text-align: center;
+}
+
+.column_module .culumn h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.column_module .culumn p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.column_module .culumn:hover {
+    box-shadow: 0px 0px 20px black;
+    transform: translate(-5px, -5px);
+    transition: 0.5s;
+}
+
+/*新闻资讯*/
+.news_module {
+    position: relative;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.news_module h3 {
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.news_module a {
+    position: relative;
+    width: 330px;
+    height: 260px;
+    margin: 0 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.news_module a p {
+    position: absolute;
+    left: 5px;
+    bottom: 40px;
+    color: rgb(149, 149, 149);
+}
+
+.news_module a h4 {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 16px;
+}
+
+.news_module a .img_container {
+    width: 260px;
+    height: 185px;
+    overflow: hidden;
+}
+
+.news_module a .img_container img {
+    transition: 0.5s;
+}
